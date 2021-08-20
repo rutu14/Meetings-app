@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@media (max-width: 576px) {
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .date-display{
+      font-size: 10px;
+  }
+} 
+:root {
+    --dark-gray: #a1aed3;
+    --primary-color: #EDE9FE;
+    --dark-blue:#25233f;
+    --lighter-blue:#3b3952;
+}
+
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container{
+  width: 90%;  
+  min-height: 100vh;
+  /* display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex; */
+  /* flex-wrap: wrap; 
+  justify-content: start;
+  align-items: center;  */
+  padding-top: 1rem;
+  margin: auto;
+}
+
+header{
+    width: 100%;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--dark-blue); 
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .nav-pills{
+    margin-left: 3rem;
+}
+
+.navigation .link {
+    color: var(--dark-gray); 
+}
+
+.navigation .link:hover {
+    color: var(--dark-blue); 
+}
+
+.navigation .link-active {
+    color: var(--dark-blue);
+}
+
+.userdetails{
+    margin-right: 3rem;
+}
+
+span{
+    color: var(--dark-gray);
+    padding: 10px;
+}
+span:hover{
+    color: var(--dark-blue);
+}
+
+#title{
+    font-size: 28px;
+    margin: 10px;
+}
+
+#day{
+    margin: 5px;
+    color: var(--lighter-blue);   
+    font-size: 16px;
+    padding: 0;
+}
+
+#date{
+    margin: 5px;
+    color: var(--dark-blue);
+    font-size: 24px;
+    padding: 0;
+}
+
+.date-day{
+    display: flex;
+    flex-direction: column;
+}
+
+.date-display{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#datepicker{
+    margin-right: 2rem;
+    border: 1px solid var(--dark-blue);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.placing{
+    background-color: #C4B5FD;
+    height: 50px;
+    flex-grow: 5;
+    margin-bottom: 5px;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.newplac{
+    display: flex;
+}
+.hrs{
+    padding-top: 0;
+    width: 15px;
+    color: var(--lighter-blue);
+}
+#meet1{
+    height: 50px;
+    width: 90%;
+    background-color: wheat;
+    font-size: 10px;
+}
